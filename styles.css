@@ -1,0 +1,57 @@
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.scoreContainer > .top {
+    display: flex;
+    background-color: #F9FAF8;
+
+}
+
+.top > * {
+    background-color: #F9FAF8;
+    margin: 10px;
+    
+}
+
+.top > #roundN {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    width: 250px;
+
+}
+
+
+.buttonsContainer {
+    display: flex;    
+    justify-content: center;
+}
+
+.buttonsContainer > button {
+    width: 90px;
+    border-radius: 5px;
+    border: 0;
+    color: #F9FAF8;
+    font-weight: 300;
+    background-color: #3882F6;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
